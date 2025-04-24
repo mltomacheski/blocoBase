@@ -39,7 +39,7 @@ for (let x = 0; x < capitais.length; x++ ){
      console.log (capitais [x]);// imprimir a posição do vetor 
  }
 
-console.log("======================================================")
+console.log("======================================================");
 
 
 //Retornar um intervalo do vetor
@@ -47,6 +47,15 @@ console.log("======================================================")
 //obs: não altera o vetor original
 console.log(capitais.slice(0, 2));
 
+console.log("======================================================");
+let numeros= [
+    "80",
+    "2",
+    "10",
+    "1"
+];
 
-
+//Ordenar o vetor em ordem crescente
+numeros.sort( (a, b) => a- b );
+console.log(numeros);
 
