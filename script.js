@@ -68,7 +68,7 @@ let sistemas= [
 ];
 
 //inverte os elementos de um array (vetor)
-numeros.reverse();
+sistemas.reverse();
 console.log(sistemas);
 
 
