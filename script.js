@@ -59,3 +59,17 @@ let numeros= [
 numeros.sort( (a, b) => a- b );
 console.log(numeros);
 
+let sistemas= [
+    "Android",
+    "iOs",
+    "macOS",
+    "Linux",
+    "Windows"
+];
+
+//inverte os elementos de um array (vetor)
+numeros.reverse();
+console.log(sistemas);
+
+
+
