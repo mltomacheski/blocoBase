@@ -24,6 +24,10 @@ capitais.push("Manaus");
 // adicionar valor no inicio do vetor e retorna o novo tamanho do vetor 
 console.log(capitais.unshift("Curitiba")); 
 
+
+//Remove o elemento do inicio do vetor. Retorna o elemento removido 
+capitais.shift();
+
 for (let x = 0; x < capitais.length; x++ ){
      console.log (capitais [x]);// imprimir a posição do vetor 
  }
