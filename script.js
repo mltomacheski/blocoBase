@@ -12,3 +12,21 @@ for (let x = 0; x < numeros.length; x++ ){
 }
 
 console.log(numeros.length);
+//====================== Outras informaçoes importantes em diferentes casos =========================================
+let capitais = [
+    "Palmas",
+    "São Paulo"
+];
+
+//Adicionar um  valor no final do array (vetor)
+capitais.push("Manaus");
+
+// adicionar valor no inicio do vetor e retorna o novo tamanho do vetor 
+console.log(capitais.unshift("Curitiba")); 
+
+for (let x = 0; x < capitais.length; x++ ){
+     console.log (capitais [x]);// imprimir a posição do vetor 
+ }
+
+
+
