@@ -71,5 +71,10 @@ let sistemas= [
 sistemas.reverse();
 console.log(sistemas);
 
+//retorna o primeiro indice em que o elemento é encontrado no vetor (array)
+console.log( sistemas.indexOf( "macOS") );
+
+console.log(sistemas);
+
 
 
