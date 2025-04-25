@@ -72,7 +72,19 @@ sistemas.reverse();
 console.log(sistemas);
 
 //retorna o primeiro indice em que o elemento é encontrado no vetor (array)
-console.log( sistemas.indexOf( "macOS") );
+sistemas.indexOf( "macOS");
+console.log(sistemas);
+
+//aqui imprime só a  posição 
+console.log(sistemas.indexOf( "macOS"));
+
+
+                        //aqui retorna o numero do iindice
+console.log( sistemas[sistemas.indexOf( "macOS")]);
+                    //dentro do colchete localiza o indice exemplos 2
+            // o vetor sistemas acha o elemento da posição 2
+//console.log(); imprime o resultado "macOS"
+                
 
 console.log(sistemas);
 
